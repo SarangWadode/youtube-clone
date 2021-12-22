@@ -17,14 +17,14 @@ function Header() {
                 <img className="image" src={youtube} alt="yputube-logo" />
             </div>
             <div className="nav_center">
-                <input type="text" />
+                <input placeholder='Search' type="text" />
                 <SearchIcon />
             </div>
             <div className="nav_right">
-                <VideoCallIcon />
-                <AppsIcon />
-                <NotificationsIcon />
-                <Avatar alt="my-avatar" src={unknown} />
+                <VideoCallIcon className='icons' />
+                <AppsIcon className='icons' />
+                <NotificationsIcon className='icons' />
+                <Avatar alt="my-avatar" className='icons' src={unknown} />
             </div>
         </div>
     )

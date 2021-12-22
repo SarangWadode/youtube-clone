@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
 .image {
@@ -21,6 +23,11 @@
 .nav_center > input {
   border: none;
   outline: none;
+  height: 10px;
+}
+
+.icons {
+  padding: 3px;
 }
 
 .nav_right {
