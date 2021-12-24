@@ -1,0 +1,14 @@
+.sidebar {
+  flex: 0.2;
+  background-color: grey;
+  font-size: 18px;
+}
+.sidebar-icons {
+  color: aqua;
+}
+.row {
+  display: flex;
+}
+.row:hover > .sidebar-icons {
+  color: blue;
+}
