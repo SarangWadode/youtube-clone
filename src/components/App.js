@@ -17,7 +17,7 @@ function App() {
             </div>
           } />
 
-          <Route path='/search' element={
+          <Route path='/search/:searchTerm' element={
             <div className="app__container">
               <h1>Search ☕</h1>
             </div>
@@ -32,11 +32,6 @@ function App() {
         
       </Router>
 
-      {/* <Header />
-      <div className="center">
-        <Sidebar />
-        <Recommendations />
-      </div> */}
     </div>
   );
 }
