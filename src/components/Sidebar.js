@@ -14,19 +14,17 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 export default function Sidebar() {
     return (
         <div className='sidebar'>
-            <div className='sidebar-item'>
-                <SidebarRows selected Icon={HomeIcon} title='Home' />
-                <SidebarRows Icon={ExploreIcon} title='Explore' />
-                <SidebarRows Icon={SubscriptionsIcon} title='Subscription' />
-                <hr />
-                <SidebarRows Icon={VideoLibraryIcon} title='Library' />
-                <SidebarRows Icon={RestoreIcon} title='History' />
-                <SidebarRows Icon={PersonalVideoIcon} title='Your videos' />
-                <SidebarRows Icon={WatchLaterIcon} title='Watch later' />
-                <SidebarRows Icon={ThumbUpIcon} title='Liked video' />
-                <SidebarRows Icon={KeyboardArrowDownIcon} title='Show more' />
-                <hr />
-            </div>
+            <SidebarRows selected Icon={HomeIcon} title='Home' />
+            <SidebarRows Icon={ExploreIcon} title='Explore' />
+            <SidebarRows Icon={SubscriptionsIcon} title='Subscription' />
+            <hr />
+            <SidebarRows Icon={VideoLibraryIcon} title='Library' />
+            <SidebarRows Icon={RestoreIcon} title='History' />
+            <SidebarRows Icon={PersonalVideoIcon} title='Your videos' />
+            <SidebarRows Icon={WatchLaterIcon} title='Watch later' />
+            <SidebarRows Icon={ThumbUpIcon} title='Liked video' />
+            <SidebarRows Icon={KeyboardArrowDownIcon} title='Show more' />
+            <hr />
         </div>
     )
 }

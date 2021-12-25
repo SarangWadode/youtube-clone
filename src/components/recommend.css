@@ -1,5 +1,19 @@
-.recommend {
-  display: flex;
-  justify-content: center;
+.recommended {
   flex: 0.8;
+}
+.videocard {
+  width: 270px;
+}
+.video-thumbnail {
+  width: 270px;
+  object-fit: contain;
+}
+.video-details {
+  display: flex;
+}
+.channel-logo {
+  object-fit: contain;
+  width: 35px;
+  margin-top: 5px;
+  border-radius: 50%;
 }
