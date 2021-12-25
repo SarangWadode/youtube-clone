@@ -1,19 +1,35 @@
+.recommended_videos {
+  display: flex;
+  flex-wrap: wrap;
+}
 .recommended {
   flex: 0.8;
 }
 .videocard {
   width: 270px;
+  margin-bottom: 40px;
 }
 .video-thumbnail {
-  width: 270px;
-  object-fit: contain;
+  width: 250px;
+  height: 140px;
 }
 .video-details {
   display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
 }
-.channel-logo {
-  object-fit: contain;
-  width: 35px;
-  margin-top: 5px;
-  border-radius: 50%;
+.videoCard-avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+.text-details {
+  margin-left: 15px;
+}
+.text-details > h4 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.text-details > p {
+  font-size: 14px;
+  color: grey;
 }

@@ -1,16 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Avatar from "@material-ui/core/Avatar";
 
 export default function VideoCard({image,title,logo,views,time,channel}) {
     return (
         <div className='videocard'>
             <img className='video-thumbnail' src={image} alt="video thumbnail" />
             <div className="video-details">
-                <div><img src={logo} alt="logo" className="channel-logo" /></div>
-                <div>
-                    <div className="video-title">{title}</div>
+                <Avatar 
+                    className='videoCard_avatar'
+                    alt='logo'
+                    src={logo}
+                />
+                <div className='text-details'>
+                    <h4>{title}</h4>
                     <div className="channel-name">{channel}</div>
-                    <div className="views">{views}</div>
-                    <div className="upload-time">{time}</div>
+                    <p>{views} views</p>
+                    <p>{time}</p>
                 </div>
             </div>
         </div>
