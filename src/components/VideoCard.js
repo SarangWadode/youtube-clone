@@ -14,8 +14,7 @@ export default function VideoCard({image,title,logo,views,time,channel}) {
                 <div className='text-details'>
                     <h4>{title}</h4>
                     <div className="channel-name">{channel}</div>
-                    <p>{views} views</p>
-                    <p>{time}</p>
+                    <p>{views} views . {time}</p>
                 </div>
             </div>
         </div>
