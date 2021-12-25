@@ -11,9 +11,9 @@ export default function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar-item'>
-                <SidebarRows Icon={HomeIcon} title='Home' />
+                <SidebarRows selected Icon={HomeIcon} title='Home' />
                 <SidebarRows Icon={ExploreIcon} title='Explore' />
-                <SidebarRows Icon={SubscriptionsIcon} title='Subscriptions' />
+                <SidebarRows Icon={SubscriptionsIcon} title='Subscription' />
                 <SidebarRows Icon={VideoLibraryIcon} title='Library' />
                 <SidebarRows Icon={RestoreIcon} title='History' />
             </div>

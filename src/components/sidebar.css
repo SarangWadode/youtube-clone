@@ -1,14 +1,36 @@
 .sidebar {
   flex: 0.2;
-  background-color: grey;
-  font-size: 18px;
 }
 .sidebar-icons {
-  color: aqua;
+  color: #606060;
+}
+.sidebar-title {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 10px;
 }
 .row {
   display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  font-size: large !important;
+}
+.row:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+.row.selected {
+  background: lightgray;
+}
+.row.selected > .sidebar-icons {
+  color: red;
+}
+.row.selected > .sidebar-title {
+  font-weight: bold;
 }
 .row:hover > .sidebar-icons {
-  color: blue;
+  color: red;
+}
+.row:hover > .sidebar-title {
+  font-weight: bold;
 }
