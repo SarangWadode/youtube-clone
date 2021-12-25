@@ -1,9 +1,12 @@
+.recommended {
+  flex: 0.8;
+  padding: 20px 0 20px 20px;
+  background-color: rgb(249 252 249);
+}
 .recommended_videos {
   display: flex;
   flex-wrap: wrap;
-}
-.recommended {
-  flex: 0.8;
+  padding: 20px 0;
 }
 .videocard {
   width: 270px;

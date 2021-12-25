@@ -5,7 +5,7 @@ import VideoCard from './VideoCard'
 export default function Recommendations() {
     return (
         <div className='recommended'>
-            <h2>Recommended</h2>
+            <h3>Recommended</h3>
             <div className="recommended_videos">
                 <VideoCard image='https://i.ytimg.com/vi/uHz2ng84hFE/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLD85le3oyGC2pu5-qjnpddIMBW6Zw' 
                 title='Aasman Ko Chukar Dekha I Return Of Hanuman (Animation)' 
