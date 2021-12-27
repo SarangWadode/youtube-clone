@@ -3,12 +3,14 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Recommendations from './Recommendations';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Search from './Search';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app ">
       <Router>
         <Header />
+        
         <Routes>
           <Route path="/" element={
             <div className="app__container center">
@@ -18,16 +20,12 @@ function App() {
           } />
 
           <Route path='/search/:searchTerm' element={
-            <div className="app__container">
-              <h1>Search ☕</h1>
+            <div className="app__container center">
+              <Sidebar />
+              <Search />
             </div>
           } />
 
-          <Route path='/signup' element={
-            <div className="app__container">
-              <h1>Sign Up ☕</h1>
-            </div>
-          } />
         </Routes>
         
       </Router>
