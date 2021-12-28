@@ -6,7 +6,7 @@ export default function Video({thumbnail, title, views, timestamp, channel, logo
     return (
         <div className='video-row'>
             <div className="thumbnail">
-                <img src={thumbnail} alt="image" />
+                <img src={thumbnail} alt="" />
             </div>
             <div className="information">
                 <h3>{title}</h3>
