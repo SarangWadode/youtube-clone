@@ -1,9 +1,10 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
+import './video.css'
 
 export default function Video({thumbnail, title, views, timestamp, channel, logo,details}) {
     return (
-        <div className='channel-row'>
+        <div className='video-row'>
             <div className="thumbnail">
                 <img src={thumbnail} alt="image" />
             </div>
@@ -16,7 +17,7 @@ export default function Video({thumbnail, title, views, timestamp, channel, logo
                     alt="logo"
                     className='channel-logo'
                     />
-                <h4>{channel}</h4>
+                    <div className='channel-name'>{channel}</div>
                 </div>
                 <p>{details}</p>
             </div>

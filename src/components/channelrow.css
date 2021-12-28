@@ -1,5 +1,7 @@
 .profile {
   display: flex;
+  margin: 30px 0;
+  max-width: 700px;
 }
 
 .profile > .avatar {
@@ -7,7 +9,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: chartreuse;
+}
+
+.avatar > .channel-logo {
+  width: 120px !important;
+  height: 120px !important;
 }
 
 .profile > .details {
@@ -15,6 +21,12 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+.details > .description > p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #606060;
 }
 
 .details > .subscribe {

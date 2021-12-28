@@ -20,11 +20,8 @@ hr {
   height: 1px;
 }
 
-.thumbnail > img {
-  width: 270px;
-  object-fit: contain;
-}
-
-.information > div {
-  display: flex;
+.information > p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #606060;
 }
