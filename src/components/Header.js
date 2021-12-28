@@ -9,6 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import youtube from '../youtube-logo.jpg';
 import unknown from '../unknown.jpg';
 import { Link } from 'react-router-dom';
+import { Tooltip } from '@mui/material';
 
 function Header() {
     const [inputSearch,setInput] = useState('');
@@ -33,10 +34,18 @@ function Header() {
                 </Link>
             </div>
             <div className="nav_right">
-                <VideoCallIcon className='icons' />
-                <AppsIcon className='icons' />
-                <NotificationsIcon className='icons' />
-                <Avatar alt="my-avatar" className='icons' src={unknown} />
+                <Tooltip title="Create">
+                    <VideoCallIcon className='icons' />
+                </Tooltip>
+                <Tooltip title="Apps">
+                    <AppsIcon className='icons' />
+                </Tooltip>
+                <Tooltip title="Notifications">
+                    <NotificationsIcon className='icons' />
+                </Tooltip>
+                <Tooltip title="Profile">
+                    <Avatar alt="my-avatar" className='icons' src={unknown} />
+                </Tooltip>
             </div>
         </div>
     )
