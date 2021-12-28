@@ -2,18 +2,23 @@ import React from 'react'
 import { TuneOutlined } from '@mui/icons-material'
 import './search.css'
 import Video from './Video'
+import ChannelRow from './ChannelRow'
 
 export default function Search() {
     return (
         <div className='search'>
-            <hr />
-            <TuneOutlined />
-            <h3>Filters</h3>
-            <hr />
-            <div className="profile">
-                <div className="avatar"></div>
-                <div className="details"></div>
+            <div className='search-header'>
+                <TuneOutlined />
+                <p>Filters</p>
             </div>
+            <hr />
+            <ChannelRow 
+            logo="https://yt3.ggpht.com/MqKm9xyjonzkICKA78ir0AM-WUR47ntkBeJlgHeIk_rUnPuukiWtzOEmU7UjO8cFoPrBatCh3As=s88-c-k-c0x00ffffff-no-rj"
+            channel="Taylor Swift"
+            subs="45.3M subscribers"
+            videos="423 videos"
+            details="Happy, free, confused and lonely at the same time."
+            />
             <h4>Latest from Programer Sarang</h4>
 
             <Video 

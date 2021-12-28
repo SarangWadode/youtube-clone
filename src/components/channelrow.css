@@ -1,0 +1,22 @@
+.profile {
+  display: flex;
+}
+
+.profile > .avatar {
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: chartreuse;
+}
+
+.profile > .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.details > .subscribe {
+  height: 30px;
+}

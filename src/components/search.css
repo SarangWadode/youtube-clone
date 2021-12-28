@@ -1,25 +1,30 @@
 .search {
   flex: 0.8;
+  background: rgb(249 252 249);
+  padding: 10px;
 }
+
+.search-header {
+  display: flex;
+  align-items: center;
+}
+
+.search-header > p {
+  margin-left: 10px;
+}
+
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: lightgray;
   height: 1px;
-  border: 0;
 }
-.channel-row {
-  display: flex;
-}
+
 .thumbnail > img {
   width: 270px;
   object-fit: contain;
 }
+
 .information > div {
   display: flex;
-}
-.channel-logo {
-  width: 5px;
-  height: 5px;
-  object-fit: contain;
 }
